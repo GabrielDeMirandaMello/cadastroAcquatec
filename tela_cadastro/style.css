@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather Sans',  sans-serif;
+  background-color: #e5e5e5;
+}
+.header {
+  background-color: #000407;
+  color: #32B9CD;
+  border-bottom: 3px solid #32B9CD;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+ display: flex;
+ list-style: none;
+ width: 400px;
+ justify-content: space-between; 
+ align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: #E3B062;
+}
+.agora {
+  font-weight: bold;
+}
+.banner {
+  background-image: url('imgs/bg-jelly-fish-para_outras_pags.png');
+  background-size: cover;
+}
+.banner .container {
+  height: 550px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+.banner .container.login {
+  justify-content: center;
+}
+.card {
+  background-color: #e5e5e5;
+  color: #E60054;
+  width: 500px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.card h2 {
+  margin: 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  width: 250px;
+}
+form label {
+  margin-top: 16px;
+}
+form input {
+  margin-top: 16px;
+  outline: 3px solid #32B9CD;
+  border: 0;
+  padding: 8px;
+  border-radius: 10px;
+}
+.cadastro button {
+    margin-top: 16px;
+    background-color: #E60054;
+    color: #fff;
+    padding: 10px 15px;
+    width: 150px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #32B9CD;
+  border-radius: 30px;
+}
+.footer {
+  background-color: #32B9CD;
+  color: #fff;
+}
+
+.footer .container {
+  display: flex;
+  height: 150px;
+  align-items: flex-start;
+  justify-content: center;
+}
